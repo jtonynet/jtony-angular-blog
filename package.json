@@ -7,11 +7,17 @@
     "test": "test"
   },
   "scripts": {
-    "start": "http-server public_html",
+    "start-heroku": "node server.js",
+    "start-server": "http-server public_html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  
+  "dependencies": {
+    "express": "3.4.7"
+  },
+  
   "devDependencies": {
     "jasmine-core": "*",
     "karma": "*",
