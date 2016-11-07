@@ -6,5 +6,8 @@ server.configure(function(){
   server.use(express.static(__dirname + '/public_html'));
 });
 
-console.log('server up');
-server.listen(3000);
+
+var processPort = process.env.PORT || 3000;
+server.listen(processPort);
+
+console.log('server up on port'+processPort);
