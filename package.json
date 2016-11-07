@@ -1,0 +1,24 @@
+{
+  "name": "jtony-angular-blog",
+  "version": "1.0.0",
+  "description": "Study Angular Blog for web rest apis",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "http-server public_html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "*",
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "*",
+    "karma-jasmine": "*",
+    "karma-junit-reporter": "*",
+    "karma-coverage": "*"
+  }
+}
