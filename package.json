@@ -13,18 +13,17 @@
   },
   "author": "",
   "license": "ISC",
-  
   "dependencies": {
     "express": "3.4.7"
   },
-  
   "devDependencies": {
+    "cucumber": "^1.3.1",
     "jasmine-core": "*",
     "karma": "*",
     "karma-chrome-launcher": "*",
+    "karma-coverage": "*",
     "karma-firefox-launcher": "*",
     "karma-jasmine": "*",
-    "karma-junit-reporter": "*",
-    "karma-coverage": "*"
+    "karma-junit-reporter": "*"
   }
 }
